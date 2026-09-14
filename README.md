@@ -8,7 +8,8 @@ Automação de testes de API REST com Postman e Newman, cobrindo o fluxo CRUD da
 -Javascript
 -Node.js
 -Swagger Petstore
--Git e GitHub
+-Git 
+- GitHub
 
 # Cenarios Automatizados
 O projeto executa o fluxo CRUD
