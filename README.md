@@ -5,7 +5,7 @@ Automação de testes de API REST com Postman e Newman, cobrindo o fluxo CRUD da
 
 -Postman
 -Newman
--Javascript
+-JavaScript
 -Node.js
 -Swagger Petstore
 -Git 
@@ -28,14 +28,14 @@ O projeto executa o fluxo CRUD:
 - Exclusão
 - Retorno 404 - Pet not found
 
-## Cenarios Negativos
+## Cenários negativos
 Foram implementados os seguintes cenários:
 1. Criar Pet com ID Inválido - retorno esperado: 400 Bad Request
 2. Consultar Pet com ID Inválido - retorno esperado: 404 Not Found
 3. Consultar Pet Inexistente - retorno esperado: 404 Not Found
 4. Deletar Pet Inexistente - retorno esperado: 404 Not Found
 
-## Resultado Execução
+## Resultado da execução
 - 10 requisições executadas
 - 18 validações realizadas
 - 0 falhas
@@ -49,6 +49,6 @@ Foram implementados os seguintes cenários:
 
 ### Newman
 - Executar o seguinte comando no cmd ou git bash
-newman run petstore.postman_collection - e petstore.postman_environment
+newman run petstore.postman_collection.json - e petstore.postman_environment.json
   
   
